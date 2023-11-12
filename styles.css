@@ -79,5 +79,34 @@ img{
 .description h4{
     color: red;
     margin: 20px 30px;
+    background-color: white ;
+}
+.champNom, .champPrenom, .champMatricule, .champMail, .champTel, .champResume, .champProjet{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    height: 150px;
+}
+.champNom label, .champPrenom label, .champMatricule label, .champMail label, .champTel label, .champProjet label, .champResume label, .champPalier label, .champSpec label, .champtype label, .champDomaine label {
+    font-size: 1.2rem;
+    background-color: white ;
+}
+.champNom input, .champPrenom input, .champMatricule input, .champMail input, .champTel input, .champProjet input, .champResume input{
+    border: none;
+    border-bottom: 0.125rem solid rgba(19, 19, 21, 0.329);
+    background-color: white ;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+}
+span{
+    color: red;
     background-color: white;
+}
+.champPalier{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+
+   
 }
