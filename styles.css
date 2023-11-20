@@ -30,15 +30,20 @@ img{
 }
 .textchamp{
     text-align: center;
+    line-height: 40px;
     
 }
 
-.textchamp h3{
-    font-size: 1.2rem;
+.textchamp .arabe{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.textchamp .underline{
+    font-size: 1.4rem;
 }
 .image{
     background-color: white;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
  .champNom, .champPrenom, .champMatricule, .champMail, .champTel, .champPalier, .champSpec, .champtype, .champDomaine, .champProjet, .champResume{
@@ -49,7 +54,7 @@ img{
     margin-top: 20px;
 }
 .description{
-    height: 400px;
+    height: 330px;
     background-color: white;
     border-radius: 7px;
     width: 100%;
@@ -68,13 +73,12 @@ img{
     height: 2px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.104);
     background-color: white;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 .description p{
     background-color: white;
-    margin-top: 50px;
-    margin: 50px 30px;
+    margin: 30px 30px;
 }
 .description h4{
     color: red;
@@ -150,21 +154,7 @@ span{
 .champSpec select option{
     background-color: white;
 }
-.ajust2 input{
-    margin-left: 14px;
-    margin-top: 4px;
-    height: 15px;
-    width: 15px;
-}
-.ajust2, .ajust3{
-    background-color: white;
-}
-.ajust3 input{
-    height: 15px;
-    width: 15px;
-    margin-left: 8px;
-    margin-top: 5px ;
-}
+
 .champDomaine{
     display: flex;
     flex-direction: column;
@@ -172,4 +162,31 @@ span{
     height: auto;
     font-size: 0.9rem;
 
+}
+.champDomaine .container input, .champPalier .container input, .champtype .container input{
+   margin-right: 10px;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.submit button{
+    background-color: #0000aa ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.submit a{
+    text-decoration: none;
+    color: #0000aa;
+    font-weight: 600;
+}
+
+.underline{
+    text-decoration: underline;
 }
