@@ -7,7 +7,7 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
         <div class="bigtitle">
             <div class="image">
                 <img src="download.png" alt="img">
@@ -48,46 +48,51 @@
         </div>
         <div class="champPalier">
             <label for="palier">Palier <span>*</span> </label>
-            <label class="container">License
-                <div class="ajust">
-                    <input type="radio" checked="checked" name="radio">
-                    <span class="checkmark"></span>
-                </div>
-                
-            </label>
-            <label class="container">Master
-                <div class="ajust">
-                    <input type="radio" checked="checked" name="radio">
-                    <span class="checkmark"></span>
-                </div>
-            </label>
+                <label class="container">License
+                    <div class="ajust">
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </div>
+                    
+                </label>
+                <label class="container">Master
+                    <div class="ajust1">
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </div>
+                </label>
+            
         </div>
         <div class="champSpec">
             <label for="spec">Choisir specialite <span>*</span></label>
             <select id="specialite" name="specialite">
-                <option value="volvo">ACAD</option>
-                <option value="saab">ISIL</option>
-                <option value="mercedes">GTR</option>
-                <option value="audi">Audi TT</option>
+                <option value="acad">ACAD</option>
+                <option value="isil">ISIL</option>
+                <option value="gtr">GTR</option>
             </select>
 
         </div>
         <div class="champtype">
             <label for="palier">Type de Projet <span>*</span> </label>
             <label class="container">Interne
-                <input type="radio" checked="checked" name="radio">
+                <div class="ajust2">
+                    <input type="radio" checked="checked" name="radio">
                 <span class="checkmark"></span>
+                </div>
+                
             </label>
              <label class="container">Externe
-                <input type="radio" name="radio">
+                <div class="ajust3">
+                    <input type="radio" checked="checked" name="radio">
                 <span class="checkmark"></span>
+            </div>
             </label>
         </div>
         <div class="champDomaine">
+            <label for="spec">Domaine <span>*</span></label>
             <label class="container">IL
                 <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
+            </label>
               <label class="container">BIG DATA
                 <input type="checkbox">
                 <span class="checkmark"></span>
